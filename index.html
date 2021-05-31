@@ -9,27 +9,35 @@
     
     <body>
         <div id="app" class="container">
-         <div class="row"> 
-            <h1 class="text-center mt-5">
+           <h1 class="text-center mt-5">
                 Escribe el título de tu pelicula favorita
             </h1>
              <form id="movieForm" autocomplete="off">
                  <div class="form-group">
-                     <label for="Movie">Título de pelicula.</label>
-                     <input class="form-control" type="text" id="Pelicu" placeholder="Título...">
+                     <h3 class="text-center mt-5 text-primary">Título de pelicula.</h3>
+                     <input class="form-control" type="text" placeholder="Título..." v-model="Titu">
                  </div>
-                 <div class="form-group">
-                     <btn class="btn btn-info btn-block" v-on:click="">
+                 <br>
+                 <div class="form-group d-grid gap-2">
+                     <btn class="btn btn-info btn-block" v-on:click="BuscarPel">
                          Buscar
                      </btn>
                  </div>
              </form>
-             <div id="resultado">
-                 
-             </div>
+             <div class="row">
+                 <div class="col-sm-4"></div>
+             <div class="col-sm-2 fs-3 text-success">{{Peli.Title}}</div> <div class="col-sm fs-3 text-secondary">{{Peli.Year}} {{Peli.Genre}}</div>
+            
             </div>
+            <div class="row">
+            <div class="col-sm-4"></div>
+                 <div class="col-sm-4 fs-4">
+                 <br> {{Peli.Plot}}
+                 </div>
+            </div>
+            
+            
 </div>
 
-        <script src="soup.js"></script>
 
 </body></html>

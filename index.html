@@ -19,7 +19,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
- <!-- Fin de Metadatos--> 
+        
+ 
 <style>
     #letra {
         font-family: 'Alegreya', serif;
@@ -27,12 +28,14 @@
         font-style: italic;
     }
 
-
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 </style>
- 
+ <!-- Fin de Metadatos--> 
 </head>
-<body>
-    
+<body class="no-scrollbar">    
     <header>
      <!-- Inicio de la Navbar ("Barra de navegación")-->
         <nav class="px-12 mx-auto border-b-8 border-violet-800 rounded-b-full bg-orange-400 fixed top-0 inset-x-0">
@@ -55,8 +58,8 @@
         </nav>
      <!-- Fin de la Navbar -->
     </header>
-    <main> 
-        <div style="background-image: url(https://i.imgur.com/R6N4xfL.png);" class="bg-local bg-no-repeat bg-top">    
+    <main class=""> 
+<div style="background-image: url(https://i.imgur.com/R6N4xfL.png);" class="bg-local bg-no-repeat bg-top">    
      <!-- Inicio de la introducción -->
         <article class="container mx-auto py-24">
             <div id="prin" class="bg-violet-500 flex mx-24 mt-24 py-6 pr-16 border-x-8 border-y-4 border-orange-600 rounded-full flex items-center">
@@ -77,19 +80,20 @@
         </article>
 
     <div style="background-image: url(multimedia/FondoDeslizador.png)" class="bg-local bg-no-repeat bg-cover">         
-        <div id="default-carousel" class="relative 
+        <div id="default-carousel" class="relative
         py-24 
         sm:pb-36 
-        xl:pb-96" data-carousel="static">
+        xl:pb-96
+        " data-carousel="static">
             <!-- Carousel wrapper -->
-            <div class="overflow-y-visible relative 
-            sm:scale-90 sm:h-64 sm:mt-32
+            <div class="overflow-y-visible overscroll-x-none relative 
+            sm:scale-90 sm:h-96 sm:mt-32
             xl:h-80 xl:mt-72 xl:ml-28 xl:scale-125 
             rounded-lg 2xl:h-96">
                  <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="multimedia/Desli 1.png" class="absolute top-1/2 left-1/2 w-fit h-fit -translate-x-1/2 -translate-y-1/2" alt="...">
-                    
+                    <a href="#" class="relative text-2xl w-96 h-96"> Holanda </a>
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
@@ -163,9 +167,9 @@
 
 
     <div style="background-image: url(multimedia/FondoIntroduccion.png)" class="bg-local bg-no-repeat bg-cover">
-        <div id="intro" class="mx-80 py-36">
-            <h1 class="text-5xl text-orange-500 bold mb-6" id="letra">Introducción</h1>
-            <p class="text-lg" id="letra">
+        <div id="intro" class="mx-96">
+            <h1 class="text-5xl text-orange-500 bold pt-72" id="letra">Introducción</h1>
+            <p class="text-xl mt-6" id="letra">
                 En Algemas buscamos que el estudiante de nivel secundaria promedio tengas las capacidades y análisis satisfactorias para la materia de matemáticas.<br>
                 Vamos a reseñar diferentes aspectos donde examinaremos estas operaciones matemáticas en sus formas más sencillas. <br> <br>
                 Se concibe que las matemáticas son difíciles, aburridas, pero en realidad, es una herramienta con la cual se debe contar para resolver problemas de<br>

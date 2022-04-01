@@ -38,7 +38,7 @@
 <body class="no-scrollbar">    
     <header>
      <!-- Inicio de la Navbar ("Barra de navegación")-->
-        <nav class="px-12 mx-auto border-b-8 border-violet-800 rounded-b-full bg-orange-400 fixed top-0 inset-x-0">
+        <nav class="px-12 mx-auto border-b-8 border-violet-800 rounded-b-full bg-orange-400 fixed top-0 inset-x-0 z-50">
          <!-- Centrar la información como darle color y forma -->
              <div class="flex justify-between items-center">
                 <div class="flex items-center">
@@ -84,16 +84,15 @@
         py-24 
         sm:pb-36 
         xl:pb-96
-        " data-carousel="static">
+        z-0" data-carousel="static">
             <!-- Carousel wrapper -->
             <div class="overflow-y-visible overscroll-x-none relative 
             sm:scale-90 sm:h-96 sm:mt-32
-            xl:h-80 xl:mt-72 xl:ml-28 xl:scale-125 
+            xl:h-80 xl:mt-72 xl:ml-[140px] xl:scale-125 
             rounded-lg 2xl:h-96">
                  <!-- Item 1 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="multimedia/Desli 1.png" class="absolute top-1/2 left-1/2 w-fit h-fit -translate-x-1/2 -translate-y-1/2" alt="...">
-                    <a href="#" class="relative text-2xl w-96 h-96"> Holanda </a>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item> <!-- Ocupar Z index para la sobreposicion -->
+                    <img src="multimedia/Desli 1.png" class="absolute top-1/2 left-1/2 w-fit h-fit -translate-x-1/2 -translate-y-1/2" alt="..."> 
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>

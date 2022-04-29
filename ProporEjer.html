@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+ <!-- Inicio de Metadatos--> 
+   <!-- Hacer compatible la pagina con la mayoria de navegadores --> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- Conexión al CDN del framework "Tailwind CSS" para su uso --> 
+    <script src="https://cdn.tailwindcss.com"></script>
+
+ <!-- Icono de la página con su titulo en la pestaña--> 
+    <link rel="shortcut icon" type="image/x-icon" href="multimedia/Ico.ico">
+    <title>Algemas</title>
+
+ <!-- Conexión al estilo de texto de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+
+ <!-- Conexión al CSS personal -->
+    <link rel="stylesheet" href="css/ProporEjer.css">
+        
+ 
+<style>
+    #letra {
+        font-family: 'Alegreya', serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+</style>
+ <!-- Fin de Metadatos--> 
+</head>
+<body>    
+     <!-- Inicio de la Navbar ("Barra de navegación")-->
+        <div class="px-12 mx-auto border-b-8 border-violet-800 rounded-b-full bg-orange-400 fixed top-0 inset-x-0 z-50"> <!-- fixed top-0 inset-x-0 z-50--> 
+         <!-- Centrar la información como darle color y forma -->
+            <div class="flex justify-between items-center">
+                <div class="flex items-center pl-4">
+                    <div class="">
+                        <img src="multimedia/icono.png" class="w-16">
+                    </div>
+                    <div class="ml-5">
+                        <p class="
+                        text-lg
+                        xl:text-3xl" id="letra">Algemas</p>
+                    </div>
+                </div>
+                <nav class="font-['Monaco'] Melu flex pr-4 xl:pr-16"> <!-- Barra de navegación-->
+                 <ul>
+                    <li>
+                        <a href="#" class="">Inicio</a>
+                    </li>
+                    <li class="Me">
+                    <a href="#" class="">Ejercicios</a> <!-- Submenu 1 -->
+                        <ul>
+                            <li>
+                                <a href="ProporEjer.html">Proporcionalidad y Funciones</a>
+                            </li>
+                            <li>
+                                <a href="ExpresioEjer.html">Expresiones Algebraicas</a>
+                            </li>
+                            <li>
+                                <a href="AdicionMonoEjer.html">Adición y Sustración de Monomios</a>
+                            </li>
+                            <li>
+                                <a href="AdicionPoliEjer.html">Adición y Sustración de Polinomios</a>
+                            </li>
+                            <li>
+                                <a href="MedidaEjer.html">Medida</a>
+                            </li>
+                            <li>
+                                <a href="VolumenEjer.html">Volúmen de Cubos/Prismas/Pirámides Rectos</a>
+                            </li>
+                            <li>
+                                <a href="AreaEjer.html">Áreas de Medidas Compuestas</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="Me">
+                    <a href="#" class="">Principios</a> <!-- Submenu 2 -->
+                    <ul>
+                        <li>
+                            <a href="ProporPrin.html">Proporcionalidad y Funciones</a>
+                        </li>
+                        <li>
+                            <a href="ExpresioPrin.html">Expresiones Algebraicas</a>
+                        </li>
+                        <li>
+                            <a href="AdicionMonoPrin.html">Adición y Sustración de Monomios</a>
+                        </li>
+                        <li>
+                            <a href="AdicionPoliPrin.html">Adición y Sustración de Polinomios</a>
+                        </li>
+                        <li>
+                            <a href="MedidaPrin.html">Medida</a>
+                        </li>
+                        <li>
+                            <a href="VolumenPrin.html">Volúmen de Cubos/Prismas/Pirámides Rectos</a>
+                        </li>
+                        <li>
+                            <a href="AreaPrin.html">Áreas de Medidas Compuestas</a>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                <input type="checkbox" id="Check">
+                <label for="Check" class="MenuBtn" id="LabelCheck">
+                    <i class="fa-solid fa-bars IconoMenu"></i>
+                </label>
+                </nav>
+            </div>
+        </div>
+        <div class="fondo">
+            <div class="ContenedorContenido">
+            <div class="Contenido">
+                <h1>FUNCIÓN DE PROPORCIONALIDAD DIRECTA</h1>
+                <p>EJERCICIO 1<br>
+                    Un auto consume 12 litros de gasolina por cada 90 kilómetros viajados. ¿Qué distancia puede
+                    viajar el auto con 4 litros de gasolina?.<br>
+                    Solución<br>
+                    Tenemos que el auto consume 12 litros de gasolina por cada 90 kilómetros. Entonces, por cada 1
+                    litro de gasolina, el auto puede viajar 90/12:<br>
+                    1 litro=90/12 km
+                    Entonces, con 4 litros de gasolina, el auto cubre:
+                    4(90/12)=30 km<br><br>
+
+                    EJERCICIO 2<br>
+                    El costo de 6 sandías es 8 dólares. ¿Cuántas sandías pueden comprarse con 20 dólares?<br>
+                    Solución<br>
+                    La pregunta nos dice que con 8 dólares, podemos comprar 6 sandías. Entonces, con 1 dólar,
+                    podemos comprar 6/8 = 3/4sandías:<br>
+                    1 dólar=3/4 sandías<br>
+                    Por lo tanto, con 20 dólares, podemos comprar:
+                    20(3/4)=15 sandías<br><br>
+
+                    EJERCICIO 3<br>
+                    Si es que a 6 trabajadores les toma 1 mes para construir 2 casas, ¿cuántas casas construirían 9
+                    trabajadores en 1 mes?<br>
+                    Solución<br>
+                    Aquí, la relación es solamente entre trabajadores y casas, ya que la cantidad de meses permanece
+                    igual. Tenemos que 6 trabajadores construyen 2 casas en 1 mes.<br>
+                    Entonces, en 1 mes, 1 trabajador construiría 2/6=1/3 casas<br>
+                    1 trabajador=1/3 casas<br>
+                    Por lo tanto, 9 trabajadores construirían:
+                    9(1/3)= casas<br><br>
+
+
+                    EJERCICIO 4<br>
+                    Si es que 18 vacas producen 396 litros de leche, ¿cuántas vacas se necesitarían para producir 550
+                    litros de leche?<br>
+                    Solución<br>
+                    Tenemos que 18 vacas producen 396 litros de leche. Entonces, 1 litro de leche es producido por;<br>
+                    18/396= 1/22vacas<br>
+                    1 litro=1/22 vacas<br>
+                    Por lo tanto, 550 litros son producidos por:
+                    550(1/22)=25 vacas <br><br>
+
+                    EJERCICIO 5<br>
+                    El sueldo total para 12 personas que trabajan por 6 días es 1800 dólares. ¿Cuál es el sueldo total
+                    para 20 personas que trabajan por 5 días?<br>
+                    Este ejercicio es similar a los anteriores, la única diferencia es que tenemos que aplicar
+                    proporcionalidad directa dos veces. Entonces, tenemos lo siguiente:<br>
+                    Sueldo de 12 personas por 6 días = 1800<br>
+                    ⇒ Sueldo de 1 persona por 6 días =1800/12=150<br>
+                    ⇒ Sueldo de 1 persona por 1 día = 150/6 =25<br>
+                    ⇒ Sueldo total de 20 personas por 5 días = 25 x 20 x 5=2500<br>
+                    Entonces, el sueldo total de 20 personas que trabajan por 5 días es 2500 dólares.
+                    
+
+                </p>
+                    </div>
+                </div>  
+            </div>
+           </div>
+        <!-- Fin de la Navbar -->
+        </body>
+        </html>
+     

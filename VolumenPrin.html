@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+ <!-- Inicio de Metadatos--> 
+   <!-- Hacer compatible la pagina con la mayoria de navegadores --> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- Conexión al CDN del framework "Tailwind CSS" para su uso --> 
+    <script src="https://cdn.tailwindcss.com"></script>
+
+ <!-- Icono de la página con su titulo en la pestaña--> 
+    <link rel="shortcut icon" type="image/x-icon" href="multimedia/Ico.ico">
+    <title>Algemas</title>
+
+ <!-- Conexión al estilo de texto de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+
+ <!-- Conexión al CSS personal -->
+    <link rel="stylesheet" href="css/VolumenPrin.css">
+        
+ 
+<style>
+    #letra {
+        font-family: 'Alegreya', serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+</style>
+ <!-- Fin de Metadatos--> 
+</head>
+<body>    
+     <!-- Inicio de la Navbar ("Barra de navegación")-->
+        <div class="px-12 mx-auto border-b-8 border-violet-800 rounded-b-full bg-orange-400 fixed top-0 inset-x-0 z-50"> <!-- fixed top-0 inset-x-0 z-50--> 
+         <!-- Centrar la información como darle color y forma -->
+            <div class="flex justify-between items-center">
+                <div class="flex items-center pl-4">
+                    <div class="">
+                        <img src="multimedia/icono.png" class="w-16">
+                    </div>
+                    <div class="ml-5">
+                        <p class="
+                        text-lg
+                        xl:text-3xl" id="letra">Algemas</p>
+                    </div>
+                </div>
+                <nav class="font-['Monaco'] Melu flex pr-4 xl:pr-16"> <!-- Barra de navegación-->
+                 <ul>
+                    <li>
+                        <a href="#" class="">Inicio</a>
+                    </li>
+                    <li class="Me">
+                    <a href="#" class="">Ejercicios</a> <!-- Submenu 1 -->
+                        <ul>
+                            <li>
+                                <a href="ProporEjer.html">Proporcionalidad y Funciones</a>
+                            </li>
+                            <li>
+                                <a href="ExpresioEjer.html">Expresiones Algebraicas</a>
+                            </li>
+                            <li>
+                                <a href="AdicionMonoEjer.html">Adición y Sustración de Monomios</a>
+                            </li>
+                            <li>
+                                <a href="AdicionPoliEjer.html">Adición y Sustración de Polinomios</a>
+                            </li>
+                            <li>
+                                <a href="MedidaEjer.html">Medida</a>
+                            </li>
+                            <li>
+                                <a href="VolumenEjer.html">Volúmen de Cubos/Prismas/Pirámides Rectos</a>
+                            </li>
+                            <li>
+                                <a href="AreaEjer.html">Áreas de Medidas Compuestas</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="Me">
+                    <a href="#" class="">Principios</a> <!-- Submenu 2 -->
+                    <ul>
+                        <li>
+                            <a href="ProporPrin.html">Proporcionalidad y Funciones</a>
+                        </li>
+                        <li>
+                            <a href="ExpresioPrin.html">Expresiones Algebraicas</a>
+                        </li>
+                        <li>
+                            <a href="AdicionMonoPrin.html">Adición y Sustración de Monomios</a>
+                        </li>
+                        <li>
+                            <a href="AdicionPoliPrin.html">Adición y Sustración de Polinomios</a>
+                        </li>
+                        <li>
+                            <a href="MedidaPrin.html">Medida</a>
+                        </li>
+                        <li>
+                            <a href="VolumenPrin.html">Volúmen de Cubos/Prismas/Pirámides Rectos</a>
+                        </li>
+                        <li>
+                            <a href="AreaPrin.html">Áreas de Medidas Compuestas</a>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                <input type="checkbox" id="Check">
+                <label for="Check" class="MenuBtn" id="LabelCheck">
+                    <i class="fa-solid fa-bars IconoMenu"></i>
+                </label>
+                </nav>
+            </div>
+        </div>
+        <div class="fondo">
+            <div class="ContenedorContenido">
+            <div class="Contenedor">
+            <h1>Volumen</h1>
+            <p>El volumen de un sólido tiene relación con la cantidad de espacio que ocupa dicho sólido.
+            El volumen de un sólido es el número de unidades de volumen que contiene.<br><br>
+            Cálculo de volumen en prismas, cubos y pirámides<br>
+            Poliedros: Sólido limitado por polígonos.<br><br>
+            El volumen de un poliedro regular es la tercera parte del producto de su área por el apotema.
+            Prisma recto: Sus caras laterales son rectángulos y la altura es la longitud de la arista lateral.
+            El prisma toma el nombre de la figura que tenga en su base: prisma triangular, prisma hexagonal,
+            prisma pentagonal, etc.<br><br>
+            Paralelepípedos: Prismas cuyas bases son paralelogramos.<br><br>
+            Pirámide: Poliedro en que una de sus caras, llamada base, es un polígono cualquiera, y las otras caras,
+            llamadas caras laterales, son triángulos con un vértice común llamado vértice de la pirámide. Las aristas
+            de las caras laterales se llaman aristas laterales. La altura es la longitud de la perpendicular del
+            vértice al plano de la base de la pirámide. Al igual que el prisma recto la pirámide toma el nombre de la
+            figura que tenga en su base.<br><br>
+                
+                
+            </p>
+                </div>
+            </div>
+           </div>
+        <!-- Fin de la Navbar -->
+        </body>
+        </html>
+     

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+ <!-- Inicio de Metadatos--> 
+   <!-- Hacer compatible la pagina con la mayoria de navegadores --> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- Conexión al CDN del framework "Tailwind CSS" para su uso --> 
+    <script src="https://cdn.tailwindcss.com"></script>
+
+ <!-- Icono de la página con su titulo en la pestaña--> 
+    <link rel="shortcut icon" type="image/x-icon" href="multimedia/Ico.ico">
+    <title>Algemas</title>
+
+ <!-- Conexión al estilo de texto de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+
+ <!-- Conexión al CSS personal -->
+    <link rel="stylesheet" href="css/AdicionMonoPrin.css">
+        
+ 
+<style>
+    #letra {
+        font-family: 'Alegreya', serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+</style>
+ <!-- Fin de Metadatos--> 
+</head>
+<body>    
+     <!-- Inicio de la Navbar ("Barra de navegación")-->
+        <div class="px-12 mx-auto border-b-8 border-violet-800 rounded-b-full bg-orange-400 fixed top-0 inset-x-0 z-50"> <!-- fixed top-0 inset-x-0 z-50--> 
+         <!-- Centrar la información como darle color y forma -->
+            <div class="flex justify-between items-center">
+                <div class="flex items-center pl-4">
+                    <div class="">
+                        <img src="multimedia/icono.png" class="w-16">
+                    </div>
+                    <div class="ml-5">
+                        <p class="
+                        text-lg
+                        xl:text-3xl" id="letra">Algemas</p>
+                    </div>
+                </div>
+                <nav class="font-['Monaco'] Melu flex pr-4 xl:pr-16"> <!-- Barra de navegación-->
+                 <ul>
+                    <li>
+                        <a href="#" class="">Inicio</a>
+                    </li>
+                    <li class="Me">
+                    <a href="#" class="">Ejercicios</a> <!-- Submenu 1 -->
+                        <ul>
+                            <li>
+                                <a href="ProporEjer.html">Proporcionalidad y Funciones</a>
+                            </li>
+                            <li>
+                                <a href="ExpresioEjer.html">Expresiones Algebraicas</a>
+                            </li>
+                            <li>
+                                <a href="AdicionMonoEjer.html">Adición y Sustración de Monomios</a>
+                            </li>
+                            <li>
+                                <a href="AdicionPoliEjer.html">Adición y Sustración de Polinomios</a>
+                            </li>
+                            <li>
+                                <a href="MedidaEjer.html">Medida</a>
+                            </li>
+                            <li>
+                                <a href="VolumenEjer.html">Volúmen de Cubos/Prismas/Pirámides Rectos</a>
+                            </li>
+                            <li>
+                                <a href="AreaEjer.html">Áreas de Medidas Compuestas</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="Me">
+                    <a href="#" class="">Principios</a> <!-- Submenu 2 -->
+                    <ul>
+                        <li>
+                            <a href="ProporPrin.html">Proporcionalidad y Funciones</a>
+                        </li>
+                        <li>
+                            <a href="ExpresioPrin.html">Expresiones Algebraicas</a>
+                        </li>
+                        <li>
+                            <a href="AdicionMonoPrin.html">Adición y Sustración de Monomios</a>
+                        </li>
+                        <li>
+                            <a href="AdicionPoliPrin.html">Adición y Sustración de Polinomios</a>
+                        </li>
+                        <li>
+                            <a href="MedidaPrin.html">Medida</a>
+                        </li>
+                        <li>
+                            <a href="VolumenPrin.html">Volúmen de Cubos/Prismas/Pirámides Rectos</a>
+                        </li>
+                        <li>
+                            <a href="AreaPrin.html">Áreas de Medidas Compuestas</a>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                <input type="checkbox" id="Check">
+                <label for="Check" class="MenuBtn" id="LabelCheck">
+                    <i class="fa-solid fa-bars IconoMenu"></i>
+                </label>
+                </nav>
+            </div>
+        </div>
+        <div class="fondo">
+            <div class="ContenedorContenido">
+            <div class="Contenido">
+                <h1>Adición y sustración de monomios</h1>
+                <p>¿Qué es un Monomio?
+                Un Monomio es una expresión algebraica que tiene un solo término. Es decir, un número acompañado de
+                unas variables (letras) con sus respectivos exponentes. Sólo se pueden sumar o restar los monomios que
+                tienen la misma parte literal, es decir aquellos que tienen la misma letra con los mismos exponentes.<br><br>
+                Ejemplo:<br>
+                1) 2x ; 8x ; -5x (Sí se pueden sumar o restar porque son semejantes).<br>
+                2) 2x ; -8y ; 3z (No se pueden sumar ni restar porque no son semejantes).<br><br>
+                
+                ADICIÓN DE MONOMIOS<br>
+                Para sumar Monomios sólo se suman las partes constantes (los números) y al resultado se le agrega
+                la parte variable común.<br><br>
+                Ejemplos:<br>
+                1.Sumar: 4xy; 2xy; 3xy<br>
+                Solución:4xy + 2xy + 3xy = (4+2+3)xy = 9xy<br><br>
+
+                2.Sumar: -3y<sup>2</sup>; 2y<sup>2</sup>: -3y<sup>2</sup><br>
+                Solución: 3y<sup>2</sup> + 2y<sup>2</sup> - 3y<sup>2</sup> = (-3+2-3)y<sup>2</sup>= -4y<sup>2</sup><br><br>
+        
+                3.Sumar: 1/2a; -1/3a; 1/46<br>
+                Solución: (1/2-1/3)a + 1/4b = 1/6 a +1/4 b<br><br>
+
+                4.Sumar: 1/7yz : 2/7yz: 3/7yz<br>
+                Solución: (1/7 + 2/7 + 3/7) yz = 6/7 yz<br><br>
+
+                SUSTRACCIÓN DE MONOMIOS<br>
+                Para restar Monomios se escribe el minuendo con su propio signo, y a continuación el sustraendo con
+                los signos cambiados, luego reducir:<br><br>
+                Ejemplos:<br>
+                1. De 8x restar 3x <br>
+                Solución: 8x-3x= 5x <br><br>
+
+                2. De 2xy restar 9xy<br>
+                Solución: 2xy -9xy= -7xv<br><br>
+
+                3. De 5y<sup>2</sup> restar -4y<sup>3</sup><br>
+                Solución: 5y<sup>2</sup>(-4y<sup>2</sup>)= -9y<sup>2</sup><br><br>
+
+                4. De-4ab<sup>3</sup> restar 5ab<sup>3</sup><br>
+                Solución: -4ab<sup>3</sup>-5ab<sup>3</sup> = -9ab<sup>3</sup><br><br>
+
+                5. De -1/2ab restar -3/4ab<br>
+                Solución: -1/2ab-(-3/4ab)= (-1/2+3/4)ab= 1/4 ab<br><br>
+
+                </p>
+                </div>
+            </div>
+           </div> 
+        <!-- Fin de la Navbar -->
+        </body>
+        </html>
+     
